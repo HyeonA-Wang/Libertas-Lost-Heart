@@ -59,7 +59,6 @@
     <Compile Include="Assets\Scripts\Movement2D.cs" />
     <Compile Include="Assets\Scripts\MovementCamera.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
