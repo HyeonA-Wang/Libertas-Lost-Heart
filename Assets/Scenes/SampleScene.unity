@@ -233,6 +233,7 @@ GameObject:
   - component: {fileID: 711046911}
   - component: {fileID: 711046910}
   - component: {fileID: 711046914}
+  - component: {fileID: 711046915}
   m_Layer: 0
   m_Name: Enemy_0
   m_TagString: Untagged
@@ -361,6 +362,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &711046915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711046909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 078b829a517cde643a73a9d285f0061f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFloat: 0
+  rigid: {fileID: 0}
 --- !u!1 &712776200
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,6 +391,8 @@ GameObject:
   - component: {fileID: 712776206}
   - component: {fileID: 712776205}
   - component: {fileID: 712776204}
+  - component: {fileID: 712776209}
+  - component: {fileID: 712776208}
   m_Layer: 0
   m_Name: freed_0
   m_TagString: Untagged
@@ -482,7 +499,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1.5
+  m_GravityScale: 5.5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -528,12 +545,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69b7a748794959747bbc5125edd59f5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 8
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  maxJumpCount: 1
+  moveDefaulPower: 8
+  movePower: 8
+  dashDelay: 10
+  dashTime: 0
+  dashLimitTime: 0.1
+  dashPower: 40
+  jumpCount: 0
+  jumpMax: 2
+  isRight: 0
+  isLeft: 0
+  isDash: 0
+  rigid: {fileID: 0}
+--- !u!114 &712776208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712776200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c5ab6338b8df38479883b6d791c40d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isResp: 0
+--- !u!114 &712776209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712776200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d79471b0f44ee0241bbe58cd548f4208, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isJump: 0
+  jumpCount: 0
+  jumpPower: 20
+  jumpMax: 2
+  rigid: {fileID: 0}
 --- !u!1 &1252109877
 GameObject:
   m_ObjectHideFlags: 0
