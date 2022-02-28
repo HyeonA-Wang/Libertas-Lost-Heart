@@ -57,7 +57,7 @@ public class Movement2D : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other) //충돌했을 경우 호출
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Ground")) // 바닥과 충돌하면 i가 0이됨
+        if (other.gameObject.layer == LayerMask.NameToLayer("Ground") && rigid.velocity.y == 0) // 바닥과 충돌하면 i가 0이됨
         {
             jumpCount = jumpMax;
             isJump = false;

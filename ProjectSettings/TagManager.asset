@@ -41,3 +41,30 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: background
+    uniqueID: 2490846747
+    locked: 0
+  - name: ground
+    uniqueID: 3014558835
+    locked: 0
+  - name: skill
+    uniqueID: 121360471
+    locked: 0
+  - name: enemy's skill
+    uniqueID: 1635443775
+    locked: 0
+  - name: monster
+    uniqueID: 422965215
+    locked: 0
+  - name: enemy
+    uniqueID: 132323381
+    locked: 0
+  - name: player
+    uniqueID: 2434538401
+    locked: 0
+  - name: grass
+    uniqueID: 173000799
+    locked: 0
+  - name: obj
+    uniqueID: 4270124675
+    locked: 0
