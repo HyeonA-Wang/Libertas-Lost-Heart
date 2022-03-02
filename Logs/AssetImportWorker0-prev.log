@@ -15,11 +15,11 @@ C:/Users/wangh/Desktop/Libertas-Lost-Heart
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54998
+55053
 Successfully changed project path to: C:/Users/wangh/Desktop/Libertas-Lost-Heart
 C:/Users/wangh/Desktop/Libertas-Lost-Heart
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 122.00 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 50.17 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,123 +35,155 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010155 seconds.
+Registered in 0.005359 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.26 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.17 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.385 seconds
+- Completed reload, in  1.840 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008072 seconds.
+Registered in 0.004453 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 99.09 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 48.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.118 seconds
+- Completed reload, in  1.353 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.38 seconds
-Refreshing native plugins compatible for Editor in 1.97 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.7 MB.
 System memory in use after: 87.6 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2258.
-Total: 14.662300 ms (FindLiveObjects: 1.274800 ms CreateObjectMapping: 0.629700 ms MarkObjects: 11.947400 ms  DeleteObjects: 0.804100 ms)
+Total: 2.415000 ms (FindLiveObjects: 0.198100 ms CreateObjectMapping: 0.074100 ms MarkObjects: 2.012000 ms  DeleteObjects: 0.129600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Map_images/1.png
-  artifactKey: Guid(b5fab7b5c35a5e44da4343bf27a76ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map_images/1.png using Guid(b5fab7b5c35a5e44da4343bf27a76ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c83c5147afe2901d13266064b34f4f') in 1.535739 seconds
-  Import took 1.548605 seconds .
+  path: Assets/Anim_image/freedRightWalk_0.controller
+  artifactKey: Guid(c16eca9086d51f54a8ce39ea98ad39c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim_image/freedRightWalk_0.controller using Guid(c16eca9086d51f54a8ce39ea98ad39c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11028fbb3b4973a7ac7dc057896ec7c') in 0.404300 seconds
+  Import took 0.408054 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000896 seconds.
-  path: Assets/Map_images/2.png
-  artifactKey: Guid(5851cf5f82494f7418a18a113c858113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map_images/2.png using Guid(5851cf5f82494f7418a18a113c858113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440a464011c12132b40d1c195ff51b12') in 0.072755 seconds
-  Import took 0.082589 seconds .
+  Time since last request: 13.267131 seconds.
+  path: Assets/Animation/player_stand.anim
+  artifactKey: Guid(567a31780374236459c3599ca150e5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player_stand.anim using Guid(567a31780374236459c3599ca150e5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c560fea1b0d4d5fd841fa8aa5716e6e') in 0.026792 seconds
+  Import took 0.032319 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.670981 seconds.
-  path: Assets/Anim_image/freedRightWalk.png
-  artifactKey: Guid(aaa4a7b01d58e3548b8659e40509243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anim_image/freedRightWalk.png using Guid(aaa4a7b01d58e3548b8659e40509243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d37ee5bbb28f083790e83bbe917c59') in 0.108589 seconds
-  Import took 0.121117 seconds .
+  Time since last request: 0.000496 seconds.
+  path: Assets/Animation/player_stand.anim
+  artifactKey: Guid(567a31780374236459c3599ca150e5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player_stand.anim using Guid(567a31780374236459c3599ca150e5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c560fea1b0d4d5fd841fa8aa5716e6e') in 0.013482 seconds
+  Import took 0.018464 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.440164 seconds.
-  path: Assets/Anim_image/freedRightWalk.png
-  artifactKey: Guid(aaa4a7b01d58e3548b8659e40509243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anim_image/freedRightWalk.png using Guid(aaa4a7b01d58e3548b8659e40509243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c96981e87ce4fc75c8457a755a409c7') in 0.030449 seconds
-  Import took 0.038013 seconds .
+  Time since last request: 29.893619 seconds.
+  path: Assets/Animation/freedRightWalk_0.controller
+  artifactKey: Guid(c16eca9086d51f54a8ce39ea98ad39c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/freedRightWalk_0.controller using Guid(c16eca9086d51f54a8ce39ea98ad39c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9b0fc9bc5f6ff531c164c73e66904d') in 0.014792 seconds
+  Import took 0.019853 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.547966 seconds.
-  path: Assets/Anim_image/freedRightWalk.png
-  artifactKey: Guid(aaa4a7b01d58e3548b8659e40509243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anim_image/freedRightWalk.png using Guid(aaa4a7b01d58e3548b8659e40509243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bfdbc278eaf4fea73b890207e65473') in 0.064265 seconds
-  Import took 0.068192 seconds .
+  Time since last request: 61.274160 seconds.
+  path: Assets/Anim_image/freedLeftWalk.png
+  artifactKey: Guid(af8c0eb6a99daf04ba42ff51a070630d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim_image/freedLeftWalk.png using Guid(af8c0eb6a99daf04ba42ff51a070630d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32997992ddeae9d0af57559cb65ac177') in 0.113867 seconds
+  Import took 0.117856 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.889479 seconds.
-  path: Assets/Anim_image/freedRightWalk.png
-  artifactKey: Guid(aaa4a7b01d58e3548b8659e40509243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anim_image/freedRightWalk.png using Guid(aaa4a7b01d58e3548b8659e40509243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ac68e65c7a03e5216dafbf83517e42') in 0.065253 seconds
-  Import took 0.069216 seconds .
+  Time since last request: 28.137253 seconds.
+  path: Assets/Anim_image/freedLeftWalk.png
+  artifactKey: Guid(af8c0eb6a99daf04ba42ff51a070630d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim_image/freedLeftWalk.png using Guid(af8c0eb6a99daf04ba42ff51a070630d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f130acd371fcefa063f1e4744c4fa3c') in 0.031442 seconds
+  Import took 0.037432 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.684991 seconds.
-  path: Assets/Anim_image/freedRightWalk.anim
-  artifactKey: Guid(e1104809ccc700e45adc80ffa302d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anim_image/freedRightWalk.anim using Guid(e1104809ccc700e45adc80ffa302d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e239c03c158944fc62fce95aa74241') in 0.035283 seconds
-  Import took 0.040814 seconds .
+  Time since last request: 0.000831 seconds.
+  path: Assets/Anim_image/freedLeftWalk.png
+  artifactKey: Guid(af8c0eb6a99daf04ba42ff51a070630d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim_image/freedLeftWalk.png using Guid(af8c0eb6a99daf04ba42ff51a070630d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f130acd371fcefa063f1e4744c4fa3c') in 0.035044 seconds
+  Import took 0.039767 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002529 seconds.
-  path: Assets/Anim_image/freedRightWalk.anim
-  artifactKey: Guid(e1104809ccc700e45adc80ffa302d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anim_image/freedRightWalk.anim using Guid(e1104809ccc700e45adc80ffa302d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e239c03c158944fc62fce95aa74241') in 0.017042 seconds
-  Import took 0.023501 seconds .
+  Time since last request: 28.791963 seconds.
+  path: Assets/Anim_image/freedLeftWalk.png
+  artifactKey: Guid(af8c0eb6a99daf04ba42ff51a070630d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim_image/freedLeftWalk.png using Guid(af8c0eb6a99daf04ba42ff51a070630d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440a2612bedd2ea95d8540dee469234b') in 0.090900 seconds
+  Import took 0.099466 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 95.455241 seconds.
-  path: Assets/Anim_image/freed_right_walk.anim
-  artifactKey: Guid(ae615c2384c862849a4c97f501281b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anim_image/freed_right_walk.anim using Guid(ae615c2384c862849a4c97f501281b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977654aa60922438e64cf0eb93d23d6b') in 0.022569 seconds
-  Import took 0.030287 seconds .
+  Time since last request: 5.130587 seconds.
+  path: Assets/Anim_image/freedLeftWalk.png
+  artifactKey: Guid(af8c0eb6a99daf04ba42ff51a070630d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim_image/freedLeftWalk.png using Guid(af8c0eb6a99daf04ba42ff51a070630d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17df2e5c4c8477a147dfdd58240c4399') in 0.073732 seconds
+  Import took 0.079950 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003762 seconds.
-  path: Assets/Anim_image/freed_right_walk.anim
-  artifactKey: Guid(ae615c2384c862849a4c97f501281b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anim_image/freed_right_walk.anim using Guid(ae615c2384c862849a4c97f501281b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977654aa60922438e64cf0eb93d23d6b') in 0.016021 seconds
-  Import took 0.021843 seconds .
+  Time since last request: 312.874180 seconds.
+  path: Assets/Anim_image/freedLeftStand.png
+  artifactKey: Guid(3f31634e1b3f9834e97bc459c800435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim_image/freedLeftStand.png using Guid(3f31634e1b3f9834e97bc459c800435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6319751cc8a50cc759f319d9b09378') in 0.045795 seconds
+  Import took 0.055468 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.265602 seconds.
-  path: Assets/Animation/freed_right_walk.anim
-  artifactKey: Guid(ae615c2384c862849a4c97f501281b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/freed_right_walk.anim using Guid(ae615c2384c862849a4c97f501281b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e31ee6f812687a035179d34df9ec013') in 0.018940 seconds
-  Import took 0.024710 seconds .
+  Time since last request: 15.118506 seconds.
+  path: Assets/Anim_image/freedLeftStand.png
+  artifactKey: Guid(3f31634e1b3f9834e97bc459c800435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim_image/freedLeftStand.png using Guid(3f31634e1b3f9834e97bc459c800435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f45a90de2a62ed140d0ef04ee92a24e') in 0.032459 seconds
+  Import took 0.039202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011847 seconds.
+  path: Assets/Anim_image/freedLeftStand.png
+  artifactKey: Guid(3f31634e1b3f9834e97bc459c800435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim_image/freedLeftStand.png using Guid(3f31634e1b3f9834e97bc459c800435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f45a90de2a62ed140d0ef04ee92a24e') in 0.031358 seconds
+  Import took 0.037440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.791230 seconds.
+  path: Assets/Anim_image/freedLeftStand.png
+  artifactKey: Guid(3f31634e1b3f9834e97bc459c800435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim_image/freedLeftStand.png using Guid(3f31634e1b3f9834e97bc459c800435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1a8df243abf21365030dcb77867cf1') in 0.079183 seconds
+  Import took 0.090050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.063132 seconds.
+  path: Assets/Anim_image/freedLeftStand.png
+  artifactKey: Guid(3f31634e1b3f9834e97bc459c800435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim_image/freedLeftStand.png using Guid(3f31634e1b3f9834e97bc459c800435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e39545c324a706c2f5ed6b453a6c26') in 0.066784 seconds
+  Import took 0.071896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.467049 seconds.
+  path: Assets/Animation/freed_0.controller
+  artifactKey: Guid(e8cae60e1e0ae064c8a1da41936c7641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/freed_0.controller using Guid(e8cae60e1e0ae064c8a1da41936c7641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7e5258048a4638400129a0344329ad') in 0.030722 seconds
+  Import took 0.044907 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
