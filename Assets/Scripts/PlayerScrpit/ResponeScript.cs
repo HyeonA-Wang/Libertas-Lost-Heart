@@ -24,9 +24,10 @@ public class ResponeScript : MonoBehaviour
     }
     void Respone()
     {
+        Vector3 worldspone = new Vector3 (-20, 2.8f, 2);
         if (isResp == true)
         {
-            transform.position = Vector3.zero;
+            transform.position = worldspone;
             isResp = false;
         }
     }

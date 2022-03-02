@@ -4,22 +4,23 @@ using UnityEngine;
 
 public class Movement2D : MonoBehaviour
 {
-    public float moveDefaulPower = 8f;
+    public float moveDefaulPower = 12f;
     public float movePower = 0;
 
     public float dashDelay = 10f;
     public float dashTime = 0;
-    public float dashLimitTime = 0.1f;
-    public float dashPower = 40f;
+    public float dashLimitTime = 0.15f;
+    public float dashPower = 55f;
 
     public int jumpCount = 0;
-    public float jumpPower = 20f;
+    public float jumpPower = 24f;
     public int jumpMax = 2;
 
     public bool isRight = false;
     public bool isLeft = false;
     public bool isJump = false;
     public bool isDash = false;
+    public bool isFloat = false;
 
     [SerializeField]
     Rigidbody2D rigid;
@@ -33,7 +34,7 @@ public class Movement2D : MonoBehaviour
 
     void Update()
     {
-        if (isJump == false)
+        if (isJump == false && isFloat == false)
         {
             rigid.velocity = Vector2.zero;
         }
@@ -61,6 +62,16 @@ public class Movement2D : MonoBehaviour
         {
             jumpCount = jumpMax;
             isJump = false;
+            isFloat = false;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Ground")) // 바닥과 떨어지면 isFloat = true
+        {
+            isFloat = true;
+            Debug.Log(isFloat);
         }
     }
 
@@ -104,7 +115,7 @@ public class Movement2D : MonoBehaviour
 
     void Jump()
     {
-        
+
         if (jumpCount > 0) //i가 1초과이거나 isJumping이 false이면 종료
         {
             isJump = true;
@@ -114,6 +125,4 @@ public class Movement2D : MonoBehaviour
             rigid.AddForce(jumpVelocity, ForceMode2D.Impulse);
         }
     }
-
-
 }
