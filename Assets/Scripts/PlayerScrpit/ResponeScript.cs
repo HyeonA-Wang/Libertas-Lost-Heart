@@ -13,7 +13,7 @@ public class ResponeScript : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown("r"))
+        if (Input.GetKeyDown("g"))
         {
             isResp = true;
         }
