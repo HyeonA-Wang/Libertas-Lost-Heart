@@ -7,10 +7,11 @@ public class Movement2D : MonoBehaviour
     public float moveDefaulPower = 12f;
     public float movePower = 0;
 
-    public float dashDelay = 10f;
+    public float dashDelay = 0;
+    public float dashDelayLimit = 0.5f;
     public float dashTime = 0;
     public float dashLimitTime = 0.15f;
-    public float dashPower = 55f;
+    public float dashPower = 60f;
 
     public int jumpCount = 0;
     public float jumpPower = 24f;
@@ -20,6 +21,7 @@ public class Movement2D : MonoBehaviour
     public bool isLeft = false;
     public bool isJump = false;
     public bool isDash = false;
+    public bool isDashDelay = false;
     public bool isFloat = false;
 
     [SerializeField]
@@ -95,7 +97,7 @@ public class Movement2D : MonoBehaviour
             isRight = true;
         }
 
-        if (isDash == true)
+        if (isDash == true && isDashDelay == false)
         {
             movePower = dashPower;
             dashTime += Time.deltaTime;
@@ -104,6 +106,18 @@ public class Movement2D : MonoBehaviour
                 movePower = moveDefaulPower;
                 isDash = false;
                 dashTime = 0;
+                isDashDelay = true;
+            }
+        }
+
+        if (isDashDelay == true)
+        {
+            dashDelay += Time.deltaTime;
+            if (dashDelay > dashDelayLimit)
+            {
+                isDashDelay = false;
+                isDash = false;
+                dashDelay = 0;
             }
         }
 
@@ -125,4 +139,6 @@ public class Movement2D : MonoBehaviour
             rigid.AddForce(jumpVelocity, ForceMode2D.Impulse);
         }
     }
+
+
 }
