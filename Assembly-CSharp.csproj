@@ -57,13 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerScrpit\Movement2D.cs" />
+    <Compile Include="Assets\Free Pixel Art Forest\Demo\MoveBackground.cs" />
     <Compile Include="Assets\Scripts\EnemyScript\PreventSlip.cs" />
     <Compile Include="Assets\Scripts\EnemyScript\EnemyLayer.cs" />
     <Compile Include="Assets\Scripts\PlayerScrpit\NewMove.cs" />
     <Compile Include="Assets\Scripts\PlayerScrpit\PlayerLayer.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\PlayerScrpit\ResponeScript.cs" />
-    <Compile Include="Assets\Free Pixel Art Forest\Demo\MoveBackground.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Free Pixel Art Hills\contact.txt" />
